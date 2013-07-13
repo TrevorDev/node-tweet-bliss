@@ -1,4 +1,4 @@
-Twitter tweets to command arguments for node.js
+Twitter tweets to command arguments
 ======================================
 
 [tweet-bliss] Aims to provide a simplified, asynchronous client by providing only the basic uses and abstracting away the complexity of the entire API
@@ -16,9 +16,17 @@ Twitter tweets to command arguments for node.js
 You can install tweet-bliss and its dependencies with npm: `npm install tweet-bliss`.
 
 - [node](http://nodejs.org/) v0.6+
-- [twitter-api](https://github.com/timwhitlock/node-twitter-ap)
+- [twitter-api](https://github.com/timwhitlock/node-twitter-api)
 
 ## Getting started
+
+1. Head over to https://dev.twitter.com/ and create an account and an app.
+
+2. On your app page click settings and set application type to Read, Write and Access direct messages
+
+3. Create access token
+
+4. On the OAuth tool tab you can view your keys and secrets for use below
 
 ### Setup API (stable)
 

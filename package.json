@@ -1,6 +1,6 @@
 {
   "name": "tweet-bliss",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "license": "MIT",
   "author": {
     "name": "Trevor Baron",
@@ -26,7 +26,7 @@
     "url": "http://github.com/TrevorDev/node-tweet-bliss.git"
   },
   "dependencies":
-  { "twitter-api": ">=1.0.0"
+  { "twitter-api": "1.0.2"
   },
   "engines": {
     "node": ">=0.6.0"
