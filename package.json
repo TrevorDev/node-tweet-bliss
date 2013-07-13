@@ -1,6 +1,6 @@
 {
   "name": "tweet-bliss",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "license": "MIT",
   "author": {
     "name": "Trevor Baron",
@@ -20,7 +20,7 @@
     "examples",
     "README.md"
   ],
-  "main": "lib/tweet.js",
+  "main": "lib/tweet-bliss.js",
   "repository": {
     "type": "git",
     "url": "http://github.com/TrevorDev/node-tweet-bliss.git"
