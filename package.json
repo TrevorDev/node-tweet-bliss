@@ -1,0 +1,37 @@
+{
+  "name": "tweet-bliss",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Trevor Baron",
+    "url": "http://trevordev.com"
+  },
+  "description": "Twitter API 1.1 simplified client for streaming and tweeting",
+  "keywords": [
+    "twitter",
+    "tweet",
+    "streaming",
+    "rest",
+    "api",
+    "oauth"
+  ],
+  "files": [
+    "lib",
+    "examples",
+    "README.md"
+  ],
+  "main": "lib/tweet.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/TrevorDev/node-tweet-bliss.git"
+  },
+  "dependencies":
+  { "twitter-api": ">=1.0.0"
+  },
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "readmeFilename": "README.md",
+  "_id": "tweet-bliss@1.0.0",
+  "_from": "tweet-bliss@x.x"
+}
