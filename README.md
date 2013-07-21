@@ -31,10 +31,10 @@ You can install tweet-bliss and its dependencies with npm: `npm install tweet-bl
 ### Setup API (stable)
 
 	var bliss = require('tweet-bliss').createClient({
-		consumer_key: 'qByylQXicFG9gsewQyoLIg',
-		consumer_secret: 'HnNcQkrKzUpMz6d4VYbPU3VHSMenY9kPvUQvoGg0lY',
-		access_token_key: '942738733-vzWtli9S4PiiL0TcYMeovV618pMikAzOWXbXwp6Q',
-		access_token_secret: 'IVmwO9heZSbXSy2jmJT7ZN02cJqzmHAjPGlWlTTPM'
+		consumer_key: 'XXXXXXXXXXXXXXXXXXXXXX',
+		consumer_secret: 'XXXXXXXXXXXXXXXXXXXXXX',
+		access_token_key: 'XXXXXXXXXXXXXXXXXXXXXX',
+		access_token_secret: 'XXXXXXXXXXXXXXXXXXXXXX'
 	});
 
 ### Basic Streaming tweets by keyword
