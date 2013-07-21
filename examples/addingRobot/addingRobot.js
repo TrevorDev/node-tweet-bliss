@@ -1,10 +1,10 @@
 var uuid = require('node-uuid');
 
 var bliss = require('tweet-bliss').createClient({
-		consumer_key: 'qByylQXicFG9gsewQyoLIg',
-		consumer_secret: 'HnNcQkrKzUpMz6d4VYbPU3VHSMenY9kPvUQvoGg0lY',
-		access_token_key: '942738733-vzWtli9S4PiiL0TcYMeovV618pMikAzOWXbXwp6Q',
-		access_token_secret: 'IVmwO9heZSbXSy2jmJT7ZN02cJqzmHAjPGlWlTTPM'
+		consumer_key: 'XXXXXXXXXXXXXXXXXXXX',
+		consumer_secret: 'XXXXXXXXXXXXXXXXXXXX',
+		access_token_key: 'XXXXXXXXXXXXXXXXXXXX',
+		access_token_secret: 'XXXXXXXXXXXXXXXXXXXX'
 	});
 
 function main(){
