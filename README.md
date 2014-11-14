@@ -39,13 +39,20 @@ You can install tweet-bliss and its dependencies with npm: `npm install tweet-bl
 
 ### Basic Streaming tweets by keyword
 
-	bliss.stream('#add', function(fromUserName, tweetText){
+	bliss.stream('#add', null, function(fromUserName, tweetText){
 		//handle tweets that contain #add
 	});
 
-### Basic tweeting
+### Basic Streaming tweets by userID (to get userid of user use http://gettwitterid.com/)
 
-	bliss.composeTweet(tweetText, function(err){
+	bliss.stream(null, "942738733", function(fromUserName, tweetText){
+		//handle tweets that contain #add
+	});
+
+### Basic tweeting (returns promise)
+
+	bliss.composeTweet(tweetText)
+	.then(function(resp){
 		//tweet has been sent
 	});
 
